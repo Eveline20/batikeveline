@@ -22,8 +22,8 @@
                     <li class="menu-item"><a href="#" class="menu-link">Support</a></li>
                     <li class="menu-item"><a href="#" class="menu-link">How It Works?</a></li>
                 </ul>
-                <a href="#" class="btn-member">Sign In</a>
-                <a href="#" class="btn-member2">Sign Up</a>
+                <a href="{{route('login')}}" class="btn-member">Sign In</a>
+                <a href="/login" class="btn-member2">Sign Up</a>
             </div>
         </div>
     </nav>
@@ -73,7 +73,7 @@
         <div class="icons">
             <img src="img/icon-1.png" alt="">
             <div class="info">
-                <h3>free delivery</h3>
+                <h3>Free Delivery</h3>
                 <span>on all orders</span>
             </div>
         </div>
@@ -81,7 +81,7 @@
         <div class="icons">
             <img src="img/icon-2.png" alt="">
             <div class="info">
-                <h3>10 days returns</h3>
+                <h3>10 Days Returns</h3>
                 <span>moneyback guarantee</span>
             </div>
         </div>
@@ -89,7 +89,7 @@
         <div class="icons">
             <img src="img/icon-3.png" alt="">
             <div class="info">
-                <h3>offer & gifts</h3>
+                <h3>Offer & Gifts</h3>
                 <span>on all orders</span>
             </div>
         </div>
@@ -97,7 +97,7 @@
         <div class="icons">
             <img src="img/icon-4.png" alt="">
             <div class="info">
-                <h3>secure paymens</h3>
+                <h3>Secure Payments</h3>
                 <span>protected by paypal</span>
             </div>
         </div>

@@ -22,11 +22,15 @@ class BatikFeaturedTableSeeder extends Seeder
             ],
             [
                 'product_id' => 1,
-                'name' => 'Service 24/7'
+                'name' => '10 Days Returns'
             ],
             [
                 'product_id' => 1,
-                'name' => '100% Secure'
+                'name' => 'Offer & Gifts'
+            ],
+            [
+                'product_id' => 1,
+                'name' => 'Secure Payments'
             ],
             [
                 'product_id' => 2,
@@ -34,11 +38,15 @@ class BatikFeaturedTableSeeder extends Seeder
             ],
             [
                 'product_id' => 2,
-                'name' => 'Service 24/7'
+                'name' => '10 Days Returns'
             ],
             [
                 'product_id' => 2,
-                'name' => '100% Secure'
+                'name' => 'Offer & Gifts'
+            ],
+            [
+                'product_id' => 2,
+                'name' => 'Secure Payments'
             ],
 
         ];
