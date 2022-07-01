@@ -196,7 +196,7 @@
                 <img src="img/tujuhrupa.png" alt="">
                 <div class="icons">
                     <a href="#" class="fas fa-heart"></a>
-                    <a href="#" class="cart-btn">Order Nowt</a>
+                    <a href="#" class="cart-btn">Order Now</a>
                     <a href="#" class="fas fa-share"></a>
                 </div>
             </div>
