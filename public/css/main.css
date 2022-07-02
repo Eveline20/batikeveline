@@ -147,8 +147,12 @@
 
   .story {
     color : #31B380;
+    margin-top: 20px;
     }
-
+    .storyy {
+      color : #31B380;
+      margin-top: -80px;
+      }
 .text-green {
   color: #31B380 !important;
 }

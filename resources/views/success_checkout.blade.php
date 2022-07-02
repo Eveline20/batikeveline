@@ -8,7 +8,7 @@
                     <img src="img/sukseshd.png" height="400" class="mb-5" alt=" ">
                 </div>
                 <div class="col-lg-12 col-12 header-wrap mt-4">
-                    <p class="story">
+                    <p class="storyy">
                         WHAT A DAY!
                     </p>
                     <h2 class="primary-header ">

@@ -17,7 +17,7 @@
         </div>
           <div class="content-right">
             <div class="img-content">
-              <img src="img/Home Content.svg" alt="">
+              <img src="img/baner.jpg" alt="">
             </div>
           </div>
         </div>

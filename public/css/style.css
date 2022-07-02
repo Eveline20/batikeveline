@@ -106,6 +106,8 @@ section{
 }
 .content-right .img-content img{
     width: 100%;
+    
+    border-radius: 30px;
 }
 .home-wrapper .content-left{
     flex: 0 0 50%;
