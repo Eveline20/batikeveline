@@ -1,34 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="{{asset('css/main.css')}}" type="text/css">
+@extends('layouts.app')
+<header>
+<link rel="stylesheet" href="{{asset('css/style.css')}}" type="text/css">
         <!-- font awesome cdn link  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <title>Batik Store</title>
-</head>
-
-<body>
-<header>
-    <nav class="navbar">
-        <div class="container nav-wrapper">
-            <img src="img/Logo.svg">
-            <div class="menu-wrapper">
-                <ul class="menu">
-                    <li class="menu-item"><a href="#" class="menu-link active">Home</a></li>
-                    <li class="menu-item"><a href="#" class="menu-link">About</a></li>
-                    <li class="menu-item"><a href="#" class="menu-link">Support</a></li>
-                    <li class="menu-item"><a href="#" class="menu-link">How It Works?</a></li>
-                </ul>
-                <a href="{{route('login')}}" class="btn-member">Sign In</a>
-                <a href="/login" class="btn-member2">Sign Up</a>
-            </div>
-        </div>
-    </nav>
-
-    <section class="home" id="home">
+</header>
+@section('content')
+<section class="home" id="home">
         <div class="container home-wrapper">
             <div class="content-left">
                  <p class="heading">WELCOME TO  BATIK STORE</p>
@@ -119,7 +96,7 @@
                 <img src="img/megamendung.png" alt="">
                 <div class="icons">
                     <a href="#" class="fas fa-heart"></a>
-                    <a href="#" class="cart-btn">Order Now</a>
+                    <a href="{{route('checkout')}}" class="cart-btn">Order Now</a>
                     <a href="#" class="fas fa-share"></a>
                 </div>
             </div>
@@ -134,7 +111,7 @@
                 <img src="img/kawung.png" alt="">
                 <div class="icons">
                     <a href="#" class="fas fa-heart"></a>
-                    <a href="#" class="cart-btn">Order Now</a>
+                    <a href="{{route('checkout')}}" class="cart-btn">Order Now</a>
                     <a href="#" class="fas fa-share"></a>
                 </div>
             </div>
@@ -149,7 +126,7 @@
                 <img src="img/bali.png" alt="">
                 <div class="icons">
                     <a href="#" class="fas fa-heart"></a>
-                    <a href="#" class="cart-btn">Order Now</a>
+                    <a href="{{route('checkout')}}" class="cart-btn">Order Now</a>
                     <a href="#" class="fas fa-share"></a>
                 </div>
             </div>
@@ -166,7 +143,7 @@
                 <img src="img/lasem.png" alt="">
                 <div class="icons">
                     <a href="#" class="fas fa-heart"></a>
-                    <a href="#" class="cart-btn">Order Now</a>
+                    <a href="{{route('checkout')}}" class="cart-btn">Order Now</a>
                     <a href="#" class="fas fa-share"></a>
                 </div>
             </div>
@@ -181,7 +158,7 @@
                 <img src="img/kraton.png" alt="">
                 <div class="icons">
                     <a href="#" class="fas fa-heart"></a>
-                    <a href="#" class="cart-btn">Order Now</a>
+                    <a href="{{route('checkout')}}" class="cart-btn">Order Now</a>
                     <a href="#" class="fas fa-share"></a>
                 </div>
             </div>
@@ -196,7 +173,7 @@
                 <img src="img/tujuhrupa.png" alt="">
                 <div class="icons">
                     <a href="#" class="fas fa-heart"></a>
-                    <a href="#" class="cart-btn">Order Now</a>
+                    <a href="{{route('checkout')}}" class="cart-btn">Order Now</a>
                     <a href="#" class="fas fa-share"></a>
                 </div>
             </div>
@@ -263,7 +240,4 @@
 
 </section>
 
-</header>
-</body>
-
-</html>
+@endsection
