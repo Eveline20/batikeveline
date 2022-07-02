@@ -17,7 +17,7 @@
         </div>
           <div class="content-right">
             <div class="img-content">
-              <img src="img/baner.jpg" alt="">
+              <img src="img/fashionshow.jpg" alt="">
             </div>
           </div>
         </div>

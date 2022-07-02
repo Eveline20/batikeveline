@@ -24,7 +24,7 @@
             @auth
             <div class="d-flex user-logged nav-item dropdown no-arrow">
                     <a href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
-                        Halo, {{Auth::user()->name}}!
+                        Hello, {{Auth::user()->name}}!
                         @if (Auth::user()->avatar)
                         <img src="{{Auth::user()->avatar}}" class="user-photo" alt="" style="border-radius: 50%">
                         @else
