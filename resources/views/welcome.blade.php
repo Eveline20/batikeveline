@@ -17,7 +17,7 @@
         </div>
           <div class="content-right">
             <div class="img-content">
-              <img src="img/fashionshow.jpg" alt="">
+              <img src="{{asset('img/fashionshow.png')}}" alt="">
             </div>
           </div>
         </div>
@@ -34,7 +34,7 @@
             <div class="content">
                 <h3>Outfit of The Week</h3>
               <p>We care about your appearance every day, <br> especially using Indonesian handicrafts.</p>
-                <a href="#" class="btn">Preview</a>
+                <a href="#" class="btn-secondary">Preview</a>
             </div>
     
         </div>
@@ -96,7 +96,7 @@
                 <img src="img/megamendung.png" alt="">
                 <div class="icons">
                     <a href="#" class="fas fa-heart"></a>
-                    <a href="{{route('checkout')}}" class="cart-btn">Order Now</a>
+                    <a href="{{route('checkout.create', 'batik-megamendung')}}" class="cart-btn">Order Now</a>
                     <a href="#" class="fas fa-share"></a>
                 </div>
             </div>
@@ -111,7 +111,7 @@
                 <img src="img/kawung.png" alt="">
                 <div class="icons">
                     <a href="#" class="fas fa-heart"></a>
-                    <a href="{{route('checkout')}}" class="cart-btn">Order Now</a>
+                    <a href="{{route('checkout.create', 'batik-kawung')}}" class="cart-btn">Order Now</a>
                     <a href="#" class="fas fa-share"></a>
                 </div>
             </div>
@@ -126,7 +126,7 @@
                 <img src="img/bali.png" alt="">
                 <div class="icons">
                     <a href="#" class="fas fa-heart"></a>
-                    <a href="{{route('checkout')}}" class="cart-btn">Order Now</a>
+                    <a href="{{route('checkout.create', 'batik-bali')}}" class="cart-btn">Order Now</a>
                     <a href="#" class="fas fa-share"></a>
                 </div>
             </div>
@@ -143,7 +143,7 @@
                 <img src="img/lasem.png" alt="">
                 <div class="icons">
                     <a href="#" class="fas fa-heart"></a>
-                    <a href="{{route('checkout')}}" class="cart-btn">Order Now</a>
+                    <a href="{{route('checkout.create', 'batik-lasem')}}" class="cart-btn">Order Now</a>
                     <a href="#" class="fas fa-share"></a>
                 </div>
             </div>
@@ -158,7 +158,7 @@
                 <img src="img/kraton.png" alt="">
                 <div class="icons">
                     <a href="#" class="fas fa-heart"></a>
-                    <a href="{{route('checkout')}}" class="cart-btn">Order Now</a>
+                    <a href="{{route('checkout.create', 'batik-kraton')}}" class="cart-btn">Order Now</a>
                     <a href="#" class="fas fa-share"></a>
                 </div>
             </div>
@@ -173,7 +173,7 @@
                 <img src="img/tujuhrupa.png" alt="">
                 <div class="icons">
                     <a href="#" class="fas fa-heart"></a>
-                    <a href="{{route('checkout')}}" class="cart-btn">Order Now</a>
+                    <a href="{{route('checkout.create', 'batik-tujuhrupa')}}" class="cart-btn">Order Now</a>
                     <a href="#" class="fas fa-share"></a>
                 </div>
             </div>
