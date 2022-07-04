@@ -8,6 +8,8 @@ use Illuminate\Http\Request;
 use App\Models\Product;
 use App\Http\Requests\User\Checkout\Store;
 use Auth;
+use Mail;
+use App\Mail\Checkout\AfterCheckout;
 
 class CheckoutController extends Controller
 {
@@ -45,7 +47,6 @@ class CheckoutController extends Controller
      */
     public function store(Store $request, Product $product)
     {
-        return $request->all();
     //mapping request data
     $data = $request->all();
     $data['user_id'] = Auth::id();
@@ -58,9 +59,12 @@ class CheckoutController extends Controller
      $user->gender = $data['gender'];
      $user->save();
 
-    //  //create checkout
+     //create checkout
      $checkout = Checkout::create($data);   
     
+    // sending email
+    Mail::to(Auth::user()->email)->send(new AfterCheckout($checkout));
+
      return redirect(route('checkout.success'));
    
     }
@@ -113,6 +117,10 @@ class CheckoutController extends Controller
     public function success()
 {
     return view('checkout.success');
-    
+}
+
+public function invoice(Checkout $checkout)
+{
+    return $checkout;
 }
 }
