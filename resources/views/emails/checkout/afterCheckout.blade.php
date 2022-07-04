@@ -1,12 +1,12 @@
 @component('mail::message')
-# Register Product: {{$checkout->Product->title}}
+# Checkout Product: {{$checkout->Product->title}}
 
 Hi {{$checkout->User->name}}
 <br>
 Thank you for your order <b>{{$checkout->Product->title}}</b>, please see payment instruction by click the button below.
 
-@component('mail::button', ['url' => route('user.checkout.invoice', $checkout->id)])
-Get Invoice
+@component('mail::button', ['url' => route('dashboard')])
+My Dashboard
 @endcomponent
 
 Thanks,<br>
