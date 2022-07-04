@@ -9,6 +9,6 @@ Thank you for your order <b>{{$checkout->Product->title}}</b>, please see paymen
 My Dashboard
 @endcomponent
 
-Thanks,<br>
+Best Regards,<br>
 {{ config('app.name') }}
 @endcomponent

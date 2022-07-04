@@ -9,6 +9,6 @@ Welcome to Batik Store, your account has been created successfully. Now you can 
 Login Here
 @endcomponent
 
-Thanks,<br>
+Best Regards,<br>
 {{ config('app.name') }}
 @endcomponent
