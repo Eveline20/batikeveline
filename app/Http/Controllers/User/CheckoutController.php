@@ -67,6 +67,8 @@ class CheckoutController extends Controller
      $user->email = $data['email'];
      $user->name = $data['name'];
      $user->gender = $data['gender'];
+     $user->phone= $data['phone'];
+     $user->address = $data['address'];
      $user->save();
 
      //create checkout
