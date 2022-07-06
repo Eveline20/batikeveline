@@ -31,6 +31,7 @@ class Store extends FormRequest
                 'gender' => 'required|string',
                 'phone' => 'required|string',
                 'address' => 'required|string',
+                'discount' => 'nullable|string|exists:discounts,code,deleted_at,NULL'
               
             ];
     }
